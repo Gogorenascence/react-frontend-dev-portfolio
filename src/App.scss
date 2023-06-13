@@ -22,6 +22,7 @@ html {
 .title-styles {
 	font-family: 'Raleway', sans-serif;
 	font-size: 250%;
+	color: white;
 }
 
 .header-icon {
@@ -38,14 +39,59 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
+	background-color: #364780;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
 	padding-top: 150px;
 	padding-bottom: 0;
 }
+
+header::after {
+	content: "";
+	position:absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	background-size: 125px;
+	background-image: url("./frame2.png");
+	background-repeat: repeat;
+	animation: scroll 1840s linear infinite;
+	opacity: .06;
+	z-index: 10;
+	margin-bottom: 200px;
+  }
+  @keyframes scroll {
+	0% {
+	  background-position: -3000px 3000px;
+	}
+	12.5% {
+	  background-position: 0px -3000px;
+	}
+	25% {
+	  background-position: -3000px 0px;
+	}
+	37.5% {
+	  background-position: 0px 3000px;
+	}
+	50% {
+	  background-position: -3000px 3000px;
+	}
+	62.5% {
+	  background-position: 0px -3000px;
+	}
+	75% {
+	  background-position: -3000px 0px;
+	}
+	87.5% {
+	  background-position: 0px 3000px;
+	}
+	100% {
+	  background-position: -3000px 3000px;
+	}
+  }
 
 .language-icon {
 	font-size: 50px;
@@ -74,7 +120,7 @@ header {
 
 .language {
 	font-size: 25px;
-	background-color: #e9d5a1;
+	background-color: #364780;
 	padding-bottom: 10px;
 	padding-top: 80px;
 }
@@ -90,11 +136,11 @@ header h1 {
 }
 
 .slider-image {
-	border: 5px solid #D7CAAA;
+	border: 5px solid #4d70b1;
 }
 
 .slider-tab {
-	background-color: #D7CAAA;
+	background-color: #8890d8;
 	height: 25px;
 }
 
@@ -206,7 +252,7 @@ header h1 {
 
 #preview {
 	width: 500px;
-	background-color: #ebeaf5;
+	background-color: #817ea1;
 	padding: 15px;
 	position: relative;
 	margin-bottom: 15%;
@@ -219,7 +265,7 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	background: #364780;
 }
 
 .experience-icon {
@@ -233,7 +279,7 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #AE944F !important;
+	background-color: #8098bb !important;
 	color: white;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -244,7 +290,7 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #f9f5e9 !important;
+	background-color: #b8cae4 !important;
 	color: black;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -253,6 +299,7 @@ header h1 {
 .vertical-timeline-element-date {
 	padding: 0 !important;
 	margin: 0 !important;
+	color: white;
 }
 
 @media only screen and (max-width: 1170px) {
@@ -341,7 +388,7 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
+	background: #364780;
 	padding-bottom: 5%;
 }
 
@@ -426,3 +473,36 @@ footer a:focus {
 	margin-top: 50px;
 	font-size: 22px;
 }
+
+.back-to-top {
+	height: 65px;
+	position: fixed;
+	right: 2rem;
+	bottom: 2rem;
+	cursor: pointer;
+	opacity: 100%;
+	transition: opacity 0.5s;
+  }
+
+  .hidden {
+	opacity: 0%;
+  }
+
+  .back-to-top:hover {
+	opacity: 60%;
+  }
+
+  .lightswitch {
+	height: 65px;
+	position: fixed;
+	right: 2rem;
+	top: 2rem;
+	cursor: pointer;
+	z-index: 1000;
+	opacity: 33%;
+	transition: opacity 0.5s;
+  }
+
+  .lightswitch:hover {
+	opacity: 100%;
+  }

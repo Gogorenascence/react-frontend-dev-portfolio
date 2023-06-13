@@ -1,17 +1,12 @@
 {
     "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
+      "name": "Kornebari Nantah",
+      "titles": [ "Front-end Developer", "Back-end Developer", "Game Scripter" ],
       "social": [
         {
           "name": "github",
           "url": "https://github.com",
           "class": "fab fa-github"
-        },
-        {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
         }
       ],
       "image": "myProfile.jpg"
