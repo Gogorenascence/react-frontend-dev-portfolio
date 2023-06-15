@@ -29,7 +29,7 @@ class ProjectDetailsModal extends Component {
           );
         });
         if (this.props.data.images) {
-          var img = images.map((elem, i) => {
+          var img = images.slice(0, -1).map((elem, i) => {
             return <div key={i} data-src={elem} />;
           });
         }
@@ -38,7 +38,7 @@ class ProjectDetailsModal extends Component {
     return (
       <Modal
         {...this.props}
-        size="xl"
+        size="lg"
         aria-labelledby="contained-modal-title-vcenter"
         centered
         className="modal-inside"

@@ -11,26 +11,87 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
+        "title": "PlayMaker CardBase",
+        "startDate": "2015",
+        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "images": [
+          "images/portfolio/cardbase/p1.mp4",
+          "images/portfolio/cardbase/p2.mp4",
+          "images/portfolio/cardbase/p3.mp4",
+          "images/portfolio/cardbase/p4.mp4",
+          "images/portfolio/cardbase/p5.mp4",
+          "images/portfolio/cardbase/p6.gif"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "name": "FastAPI",
+            "class": "devicon-fastapi-plain",
+            "level": "90"
+          },
+          {
+            "name": "MongoDB",
+            "class": "devicon-mongodb-plain",
+            "level": "80"
+          },
+          {
+            "name": "Docker",
+            "class": "devicon-docker-plain",
+            "level": "85"
+          },
+          {
+            "name": "React",
+            "class": "devicon-react-plain",
+            "level": "90"
+          },
+          {
+            "name": "CSS 3",
+            "class": "devicon-css3-plain",
+            "level": "95"
+          }
+        ]
+      },
+      {
+        "title": "Reviewify",
         "startDate": "2020",
         "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/reviewify/r1.jpg",
+          "images/portfolio/reviewify/r2.jpg",
+          "images/portfolio/reviewify/r3.jpg",
+          "images/portfolio/reviewify/r4.jpg"
         ],
         "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "name": "FastAPI",
+            "class": "devicon-fastapi-plain",
+            "level": "90"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "name": "Postgresql",
+            "class": "devicon-postgresql-plain",
+            "level": "75"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "name": "Docker",
+            "class": "devicon-docker-plain",
+            "level": "85"
+          },
+          {
+            "name": "React",
+            "class": "devicon-react-plain",
+            "level": "90"
+          },
+          {
+            "name": "CSS 3",
+            "class": "devicon-css3-plain",
+            "level": "95"
+          },
+          {
+            "name": "Bootstrap",
+            "class": "devicon-bootstrap-plain",
+            "level": "95"
           }
         ]
       },
@@ -51,30 +112,6 @@
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
           }
         ]
       }

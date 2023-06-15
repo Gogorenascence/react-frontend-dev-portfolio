@@ -1,18 +1,48 @@
 {
     "basic_info": {
       "name": "Kornebari Nantah",
-      "titles": [ "Front-end Developer", "Back-end Developer", "Game Scripter" ],
+      "titles": [ "Front-end Developer", "Back-end Developer", "Game Scripter", "Designer", "Creator" ],
       "social": [
         {
+          "name": "Resume",
+          "url": "https://kornan.dreamhosters.com/wp-content/uploads/2023/06/Kornebari-Nantah-Technical-Resume-1.pdf",
+          "class": "fas fa-file-pdf"
+        },
+        {
+          "name": "gitlab",
+          "url": "https://gitlab.com/gogorenascence",
+          "class": "fab fa-gitlab"
+        },
+        {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/Gogorenascence",
           "class": "fab fa-github"
+        },
+        {
+          "name": "Linkedin",
+          "url": "https://www.linkedin.com/in/kornebari-nantah-346830123/",
+          "class": "fab fa-linkedin"
+        },
+        {
+          "name": "Mail",
+          "url": "mailto:nantahkl@gmail.com",
+          "class": "fas fa-envelope"
         }
       ],
       "image": "myProfile.jpg"
     },
     "skills": {
       "icons": [
+        {
+          "name": "Python",
+          "class": "devicon-python-plain",
+          "level": "95"
+        },
+        {
+          "name": "Git",
+          "class": "devicon-git-plain",
+          "level": "95"
+        },
         {
           "name": "HTML 5",
           "class": "devicon-html5-plain",
@@ -24,39 +54,54 @@
           "level": "95"
         },
         {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
+          "name": "Django",
+          "class": "devicon-django-plain",
+          "level": "95"
         },
         {
           "name": "JavaScript",
           "class": "devicon-javascript-plain",
-          "level": "70"
+          "level": "90"
         },
         {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
+          "name": "Docker",
+          "class": "devicon-docker-plain",
+          "level": "85"
         },
         {
           "name": "Bootstrap",
           "class": "devicon-bootstrap-plain",
-          "level": "85"
+          "level": "95"
         },
         {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
+          "name": "React",
+          "class": "devicon-react-plain",
+          "level": "90"
         },
         {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
+          "name": "Postgresql",
+          "class": "devicon-postgresql-plain",
+          "level": "75"
+        },
+        {
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain",
+          "level": "80"
+        },
+        {
+          "name": "FastAPI",
+          "class": "devicon-fastapi-plain",
+          "level": "90"
+        },
+        {
+          "name": "Lua",
+          "class": "devicon-lua-plain",
           "level": "60"
+        },
+        {
+          "name": "GIMP",
+          "class": "devicon-gimp-plain",
+          "level": "90"
         }
       ]
     }

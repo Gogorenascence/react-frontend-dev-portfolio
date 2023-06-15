@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
-import Switch from "react-switch";
 
 class Header extends Component {
   titles = [];
@@ -19,7 +18,7 @@ class Header extends Component {
 
     return (
       <header id="home" style={{ height: window.innerHeight, display: 'block' }}>
-        <div className="row aligner" style={{height: '100%'}}>
+        <div className="row aligner" style={{height: '75%'}}>
           <div className="col-md-12">
 
               <h1 style={{color: "white"}}>
