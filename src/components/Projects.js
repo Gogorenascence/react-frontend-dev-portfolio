@@ -48,7 +48,7 @@ class Projects extends Component {
     }
 
     return (
-      <section id="portfolio">
+      <section id="portfolio" style={{ zIndex: "10", minHeight: "100vh"}}>
         <div className="col-md-12">
           <h1 className="section-title" style={{ color: "white" }}>
             <span>{sectionName}</span>

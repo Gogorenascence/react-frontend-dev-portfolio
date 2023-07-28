@@ -9,6 +9,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import BackToTop from "./components/BackToTop";
 import LightSwitch from "./components/Switch";
+import TopNav from "./components/TopNav";
 
 class App extends Component {
 
@@ -119,6 +120,7 @@ class App extends Component {
               ></span>
           </div>
         </div>
+        <TopNav/>
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}

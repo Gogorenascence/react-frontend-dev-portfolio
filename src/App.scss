@@ -506,3 +506,17 @@ footer a:focus {
   .lightswitch:hover {
 	opacity: 100%;
   }
+
+  .topnav {
+	height: 65px;
+	position: fixed;
+	top: 2rem;
+	cursor: pointer;
+	z-index: 1000;
+	opacity: 33%;
+	transition: opacity 0.5s;
+  }
+
+  .topnav:hover {
+	opacity: 100%;
+  }
