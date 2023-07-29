@@ -16,9 +16,7 @@ class Footer extends Component {
 
     return (
       <footer>
-        <div className="col-md-12">
-          <div className="social-links">{networks}</div>
-
+        {/* <div className="col-md-12"> */}
           <div className="copyright py-4 text-center">
             <div className="container">
               <small>
@@ -29,7 +27,7 @@ class Footer extends Component {
               </small>
             </div>
           </div>
-        </div>
+        {/* </div> */}
       </footer>
     );
   }

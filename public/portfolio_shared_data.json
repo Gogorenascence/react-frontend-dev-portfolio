@@ -5,28 +5,28 @@
       "social": [
         {
           "name": "Resume",
-          "url": "https://kornan.dreamhosters.com/wp-content/uploads/2023/06/Kornebari-Nantah-Technical-Resume.pdf",
-          "class": "fas fa-file-pdf"
+          "url": "https://nantahkl.s3.us-west-1.amazonaws.com/Kornebari+Nantah+-+Technical+Resume.pdf",
+          "class": "https://i.imgur.com/ZA5Mp8k.png"
         },
         {
           "name": "gitlab",
           "url": "https://gitlab.com/gogorenascence",
-          "class": "fab fa-gitlab"
+          "class": "https://i.imgur.com/dACnAC3.png"
         },
         {
           "name": "github",
           "url": "https://github.com/Gogorenascence",
-          "class": "fab fa-github"
+          "class": "https://i.imgur.com/vkuJg3p.png"
         },
         {
           "name": "Linkedin",
           "url": "https://www.linkedin.com/in/kornebari-nantah-346830123/",
-          "class": "fab fa-linkedin"
+          "class": "https://i.imgur.com/dz7gtH7.png"
         },
         {
           "name": "Mail",
           "url": "mailto:nantahkl@gmail.com",
-          "class": "fas fa-envelope"
+          "class": "https://i.imgur.com/yDavcAt.png"
         }
       ],
       "image": "myProfile.jpg"
