@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "name": "Kornebari Nantah",
-      "titles": [ "Front-end Developer", "Back-end Developer", "Game Scripter", "Designer", "Creator" ],
+      "titles": [ "Front-end Developer", "Back-end Developer", "Game Scripter", "Designer", "Creator", "Mentor" ],
       "social": [
         {
           "name": "Resume",
@@ -22,11 +22,6 @@
           "name": "Linkedin",
           "url": "https://www.linkedin.com/in/kornebari-nantah-346830123/",
           "class": "https://i.imgur.com/dz7gtH7.png"
-        },
-        {
-          "name": "Mail",
-          "url": "mailto:nantahkl@gmail.com",
-          "class": "https://i.imgur.com/yDavcAt.png"
         }
       ],
       "image": "myProfile.jpg"
