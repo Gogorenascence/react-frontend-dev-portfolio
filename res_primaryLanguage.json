@@ -1,0 +1,176 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "PlayMaker CardBase",
+        "startDate": "2023",
+        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "images": [
+          "images/portfolio/cardbase/p1.mp4",
+          "images/portfolio/cardbase/p2.mp4",
+          "images/portfolio/cardbase/p3.mp4",
+          "images/portfolio/cardbase/p4.mp4",
+          "images/portfolio/cardbase/p5.mp4",
+          "images/portfolio/cardbase/p6.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "name": "FastAPI",
+            "class": "devicon-fastapi-plain",
+            "level": "90"
+          },
+          {
+            "name": "MongoDB",
+            "class": "devicon-mongodb-plain",
+            "level": "80"
+          },
+          {
+            "name": "Docker",
+            "class": "devicon-docker-plain",
+            "level": "85"
+          },
+          {
+            "name": "React",
+            "class": "devicon-react-plain",
+            "level": "90"
+          },
+          {
+            "name": "CSS 3",
+            "class": "devicon-css3-plain",
+            "level": "95"
+          }
+        ]
+      },
+      {
+        "title": "Reviewify",
+        "startDate": "2023",
+        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "images": [
+          "images/portfolio/reviewify/r1.jpg",
+          "images/portfolio/reviewify/r2.jpg",
+          "images/portfolio/reviewify/r3.jpg",
+          "images/portfolio/reviewify/r4.jpg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "name": "FastAPI",
+            "class": "devicon-fastapi-plain",
+            "level": "90"
+          },
+          {
+            "name": "Postgresql",
+            "class": "devicon-postgresql-plain",
+            "level": "75"
+          },
+          {
+            "name": "Docker",
+            "class": "devicon-docker-plain",
+            "level": "85"
+          },
+          {
+            "name": "React",
+            "class": "devicon-react-plain",
+            "level": "90"
+          },
+          {
+            "name": "CSS 3",
+            "class": "devicon-css3-plain",
+            "level": "95"
+          },
+          {
+            "name": "Bootstrap",
+            "class": "devicon-bootstrap-plain",
+            "level": "95"
+          }
+        ]
+      },
+      {
+        "title": "PlayMaker Tabletop Simulator Scripting",
+        "startDate": "2023",
+        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "images": [
+          "images/portfolio/scripting/s1.mp4",
+          "images/portfolio/scripting/s2.mp4",
+          "images/portfolio/scripting/s3.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Wardrobify",
+        "startDate": "2023",
+        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "images": [
+          "images/portfolio/wardrobe/w1.png",
+          "images/portfolio/wardrobe/w2.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "DefOpenSource",
+        "title": "Front-End Developer",
+        "years": "10.2019 - present",
+        "mainTech": [
+          "Angular 8/9/10"
+        ],
+        "technologies": [
+          "REST API",
+          "RxJS",
+          "JavaScript",
+          "Bootstrap",
+          "MDBootstrap",
+          "EF Core",
+          ".NET Core",
+          "SignalR",
+          "Angular Material"
+        ]
+      },
+      {
+        "company": "Serros Solutions",
+        "title": "Intern",
+        "years": "01.2018 - 09.2019",
+        "mainTech": [
+          "Angular 7/8"
+        ],
+        "technologies": [
+          "RxJS",
+          "Django",
+          "PHP",
+          "JavaScript",
+          "DHTMLX Gantt"
+        ]
+      }
+    ]
+  }

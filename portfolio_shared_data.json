@@ -1,0 +1,103 @@
+{
+    "basic_info": {
+      "name": "Kornebari Nantah",
+      "titles": [ "Front-end Developer", "Back-end Developer", "Game Scripter", "Designer", "Creator", "Mentor" ],
+      "social": [
+        {
+          "name": "Resume",
+          "url": "https://nantahkl.s3.us-west-1.amazonaws.com/Kornebari+Nantah+-+Technical+Resume.pdf",
+          "class": "https://i.imgur.com/ZA5Mp8k.png"
+        },
+        {
+          "name": "gitlab",
+          "url": "https://gitlab.com/gogorenascence",
+          "class": "https://i.imgur.com/dACnAC3.png"
+        },
+        {
+          "name": "github",
+          "url": "https://github.com/Gogorenascence",
+          "class": "https://i.imgur.com/vkuJg3p.png"
+        },
+        {
+          "name": "Linkedin",
+          "url": "https://www.linkedin.com/in/kornebari-nantah-346830123/",
+          "class": "https://i.imgur.com/dz7gtH7.png"
+        }
+      ],
+      "image": "myProfile.jpg"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "Python",
+          "class": "devicon-python-plain",
+          "level": "95"
+        },
+        {
+          "name": "Git",
+          "class": "devicon-git-plain",
+          "level": "95"
+        },
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain",
+          "level": "95"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain",
+          "level": "95"
+        },
+        {
+          "name": "Django",
+          "class": "devicon-django-plain",
+          "level": "95"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "90"
+        },
+        {
+          "name": "Docker",
+          "class": "devicon-docker-plain",
+          "level": "85"
+        },
+        {
+          "name": "Bootstrap",
+          "class": "devicon-bootstrap-plain",
+          "level": "95"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-plain",
+          "level": "90"
+        },
+        {
+          "name": "Postgresql",
+          "class": "devicon-postgresql-plain",
+          "level": "75"
+        },
+        {
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain",
+          "level": "80"
+        },
+        {
+          "name": "FastAPI",
+          "class": "devicon-fastapi-plain",
+          "level": "90"
+        },
+        {
+          "name": "Lua",
+          "class": "devicon-lua-plain",
+          "level": "60"
+        },
+        {
+          "name": "GIMP",
+          "class": "devicon-gimp-plain",
+          "level": "90"
+        }
+      ]
+    }
+  }
