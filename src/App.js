@@ -7,6 +7,7 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import Contact from "./components/Contact";
 import BackToTop from "./components/BackToTop";
 import LightSwitch from "./components/Switch";
 import TopNav from "./components/TopNav";
@@ -124,10 +125,10 @@ class App extends Component {
           </div>
         </div>
         <TopNav/>
-        <About
+        {/* <About
           resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}
-          />
+          /> */}
         <Projects
           resumeProjects={this.state.resumeData.projects}
           resumeBasicInfo={this.state.resumeData.basic_info}
@@ -140,6 +141,7 @@ class App extends Component {
           resumeExperience={this.state.resumeData.experience}
           resumeBasicInfo={this.state.resumeData.basic_info}
           />
+        <Contact/>
         <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
         <BackToTop/>
         <LightSwitch/>

@@ -25,7 +25,7 @@ class Skills extends Component {
     }
 
     return (
-      <section id="skills" style={{ zIndex: "10", minHeight: "100vh"}}>
+      <section id="skills" style={{ zIndex: "10"}}>
         <div className="col-md-12">
           <div className="col-md-12">
             <h1 className="section-title">

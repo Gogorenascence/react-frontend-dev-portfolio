@@ -37,7 +37,7 @@ class Header extends Component {
                 <img className="logo" src={network.class} alt="cards icon"/>
                 </a>
               </span>
-            )
+              )
             }
 
           </div>

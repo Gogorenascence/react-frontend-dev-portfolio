@@ -39,7 +39,7 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #364780;
+	background-color: #242833;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -450,7 +450,7 @@ header h1 {
 
 footer {
 	background: #1F1F1F;
-	min-height: 100px;
+
 	width: 100%;
 	overflow: hidden;
 	font-size: 14px;
@@ -560,4 +560,54 @@ footer a:focus {
 	justify-content: center;
 	align-items: center;
 	height: 100%;
+}
+
+#contact {
+	background: #1F1F1F;
+	min-height: 200px;
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 35px;
+}
+
+.form-title-settings {
+	margin-top: 4%;
+	font: 18px/24px 'opensans-bold', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+.input {
+	height: 38px;
+	width: 370px;
+	font-size: 20px;
+}
+
+.textarea {
+	height: 380px;
+	width: 370px;
+	font-size: 20px;
+}
+
+.button {
+	height: 38px;
+	width: 200px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: auto;
+	border: 2px solid white;
+	background: #1F1F1F;
+	text-align: center;
+	border-radius: 23px;
+	cursor: pointer;
+	font: 18px/24px 'opensans-bold', sans-serif;
+	color: #ffffff;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
