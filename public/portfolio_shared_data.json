@@ -22,7 +22,14 @@
           "name": "Linkedin",
           "url": "https://www.linkedin.com/in/kornebari-nantah-346830123/",
           "class": "https://i.imgur.com/dz7gtH7.png"
+        },
+        {
+          "name": "Calendly",
+          "url": "https://calendly.com/nantahkl/30min",
+          "class": "https://i.imgur.com/HRf3ND6.png"
         }
+
+
       ],
       "image": "myProfile.jpg"
     },
