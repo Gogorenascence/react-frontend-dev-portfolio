@@ -32,7 +32,7 @@ class Projects extends Component {
                   <img
                     src={projects.images[projects.images.length - 1]}
                     alt="projectImages"
-                    height="230"
+                    width="230px"
                     style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
                   />
                   <br />
