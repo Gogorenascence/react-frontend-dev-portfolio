@@ -24,11 +24,11 @@ class LightSwitch extends Component {
 
   render() {
     const iconSrc = this.state.dark
-      ? "https://i.imgur.com/7qbG6Ln.png"
+      ? "https://i.imgur.com/LV9WTId.png"
       : "https://i.imgur.com/binFIkR.png";
 
     return (
-      <div className="lightswitch">
+      <div>
         <img
           onClick={this.onThemeSwitchChange}
           className="lightbutton"

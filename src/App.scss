@@ -493,15 +493,14 @@ footer a:focus {
 // 	opacity: 60%;
 // }
 
-.lightswitch {
-	height: 65px;
-	position: fixed;
-	right: 2rem;
-	top: 2rem;
-	cursor: pointer;
-	z-index: 1000;
-	opacity: 100%;
-}
+// .lightswitch {
+// 	height: 65px;
+// 	position: fixed;
+// 	right: 2rem;
+// 	top: 2rem;
+// 	cursor: pointer;
+// 	z-index: 1000;
+// }
 
 .topnav {
 	height: 65px;
@@ -610,4 +609,8 @@ footer a:focus {
 .lightbutton {
 	height: 45px;
 	z-index: 1000;
+	position: fixed;
+	right: 2rem;
+	top: 2rem;
+	cursor: pointer;
 }
