@@ -481,17 +481,17 @@ footer a:focus {
 	right: 2rem;
 	bottom: 2rem;
 	cursor: pointer;
-	opacity: 100%;
-	transition: opacity 0.5s;
+	// opacity: 100%;
+	// transition: opacity 0.5s;
 }
 
-.hidden {
-	opacity: 0%;
-}
+// .hidden {
+// 	opacity: 0%;
+// }
 
-.back-to-top:hover {
-	opacity: 60%;
-}
+// .back-to-top:hover {
+// 	opacity: 60%;
+// }
 
 .lightswitch {
 	height: 65px;
@@ -500,8 +500,8 @@ footer a:focus {
 	top: 2rem;
 	cursor: pointer;
 	z-index: 1000;
-	opacity: 33%;
-	transition: opacity 0.5s;
+	// opacity: 33%;
+	// transition: opacity 0.5s;
 }
 
 .lightswitch:hover {

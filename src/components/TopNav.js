@@ -49,7 +49,7 @@ const TopNav = () => {
         <div>
             <div className='topnav'>
                 {!show ?
-                    <img className="navbutton hide"
+                    <img className="navbutton"
                         onClick={handleShow}
                         src="https://i.imgur.com/Q1Y2vV9.png"
                         alt="hb icon"/>
@@ -69,11 +69,11 @@ const TopNav = () => {
                         style={{fontSize: "50px"}}>
                         Home
                     </h1>
-                    <h1 className={linkClass}
+                    {/* <h1 className={linkClass}
                         onClick={() => smoothScrollTo('#about')}
                         style={{fontSize: "50px"}}>
                         About
-                    </h1>
+                    </h1> */}
                     <h1 className={linkClass}
                         onClick={() => smoothScrollTo('#portfolio')}
                         style={{fontSize: "50px"}}>
